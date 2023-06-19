@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(9, 1fr);
+    max-height: 99vh;
+/*<blackground-color: blue;*/
+gap: 10px
+}
+
+.logo{
+    background-color: aqua;
+    grid-row: 1;
+    grid-column: 1/9;
+}
+.texto{
+    background-color: red;
+    grid-row: 3;
+}
+
+.botao1{
+    background-color: green;
+}
+
+.botao2{
+background-color: purple;
+}
+
+.botão3{
+background-color: yellow;
+}
